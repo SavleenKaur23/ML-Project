@@ -1,5 +1,5 @@
-[2025-08-06 14:18:13,896] — 27 —INFO — root — Logging has started
-[2025-08-06 14:18:26,791] — 30 —ERROR — root — Exception occurred
+[2025-08-06 14:18:13,896] ï¿½ 27 ï¿½INFO ï¿½ root ï¿½ Logging has started
+[2025-08-06 14:18:26,791] ï¿½ 30 ï¿½ERROR ï¿½ root ï¿½ Exception occurred
 Traceback (most recent call last):
   File "C:\Users\DELL\Downloads\Savleen_LearnCode\ML-Project\src\exception.py", line 28, in <module>
     a=1/0
