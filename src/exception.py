@@ -1,6 +1,6 @@
 # refer https://docs.python.org/3/library/exceptions.html and https://docs.python.org/3/tutorial/errors.html
 import sys 
-from logger import logging # logging setup file is logger.py
+from src.logger import logging # logging setup file is logger.py
 
 # custom message for an exception
 def error_message_detail(error, error_detail:sys):
