@@ -9,3 +9,13 @@ Traceback (most recent call last):
   File "C:\Users\DELL\Downloads\Savleen_LearnCode\ML-Project\src\exception.py", line 28, in <module>
     a=1/0
 ZeroDivisionError: division by zero
+[2025-08-07 12:24:49,180] - 26 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 12:24:49,205] - 29 - INFO - root - Read the dataset as dataframe
+[2025-08-07 12:25:43,335] - 26 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 12:25:43,339] - 29 - INFO - root - Read the dataset as dataframe
+[2025-08-07 12:25:43,339] - 35 - INFO - root - Train Test Split initiated
+[2025-08-07 12:25:43,361] - 42 - INFO - root - Data Ingestion is completed
+[2025-08-07 12:27:01,865] - 26 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 12:27:01,867] - 29 - INFO - root - Read the dataset as dataframe
+[2025-08-07 12:27:01,871] - 35 - INFO - root - Train Test Split initiated
+[2025-08-07 12:27:01,871] - 42 - INFO - root - Data Ingestion is completed
