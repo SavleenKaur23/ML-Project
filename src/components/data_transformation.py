@@ -73,7 +73,7 @@ class DataTransformation:
 
             preprocessor_obj = self.get_data_transformer_object()
             # preprocessing object needs to be converted to pickle file
-            # we have the path above DataTransformationCOnfig as preprocessor_obj_file_path
+            # we have the path above DataTransformationConfig as preprocessor_obj_file_path
 
             target_column = 'math score'
             numerical_features = ['reading score', 'writing score',]
