@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 
 from dataclasses import dataclass
 from src.components.data_transformation import DataTransformation, DataTransformationConfig
-
+from src.components.model_trainer import ModelTrainerConfig, ModelTrainer
 
 @dataclass  # decorator; defines class variables directly, and it auto-generates the __init__ and other methods for us
 class DataIngestionConfig:  # any i/p required, we'll give through DataIngestionConfig
@@ -56,7 +56,12 @@ if __name__ == "__main__":
     train_data, test_data = obj.initiate_data_ingestion() # call the method initiate_data_ingestion() on that instance, which triggers the data ingestion process
     
     data_transformation=DataTransformation()
-    data_transformation.initiate_data_transformation(train_data,test_data)   
+    train_arr, test_arr, _ =  data_transformation.initiate_data_transformation(train_data,test_data) 
+    #train_arr, test_arr, _ : last one not required as we have already created pickle file
+    #data_transformation.initiate_data_transformation(train_data,test_data)    
+
+    modeltrainer = ModelTrainer()
+    print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
     
              # pip install psycopg2-binary sqlalchemy
 

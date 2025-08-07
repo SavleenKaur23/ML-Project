@@ -120,3 +120,96 @@ ZeroDivisionError: division by zero
 [2025-08-07 17:38:45,948] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
 [2025-08-07 17:38:45,948] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
 [2025-08-07 17:38:45,960] - 95 - INFO - root - Saved Preprocessing Object
+[2025-08-07 22:58:56,639] - 28 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 22:58:56,661] - 31 - INFO - root - Read the dataset as dataframe
+[2025-08-07 22:58:56,671] - 37 - INFO - root - Train Test Split initiated
+[2025-08-07 22:58:56,690] - 44 - INFO - root - Data Ingestion is completed
+[2025-08-07 22:58:56,737] - 71 - INFO - root - Reading of Train and Test Data is completed
+[2025-08-07 22:58:56,737] - 72 - INFO - root - obtaining preprocessing object
+[2025-08-07 22:58:56,737] - 49 - INFO - root - Numerical Columns: ['reading score', 'writing score']
+[2025-08-07 22:58:56,737] - 50 - INFO - root - Categorical Columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[2025-08-07 22:58:56,737] - 52 - INFO - root - Std Scaling for Numerical features completed
+[2025-08-07 22:58:56,737] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
+[2025-08-07 22:58:56,745] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
+[2025-08-07 22:58:56,774] - 96 - INFO - root - Saved Preprocessing Object
+[2025-08-07 22:58:56,782] - 35 - INFO - root - Split train and test input data
+[2025-08-07 23:02:46,925] - 28 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 23:02:46,929] - 31 - INFO - root - Read the dataset as dataframe
+[2025-08-07 23:02:46,933] - 37 - INFO - root - Train Test Split initiated
+[2025-08-07 23:02:46,941] - 44 - INFO - root - Data Ingestion is completed
+[2025-08-07 23:02:47,001] - 71 - INFO - root - Reading of Train and Test Data is completed
+[2025-08-07 23:02:47,001] - 72 - INFO - root - obtaining preprocessing object
+[2025-08-07 23:02:47,001] - 49 - INFO - root - Numerical Columns: ['reading score', 'writing score']
+[2025-08-07 23:02:47,001] - 50 - INFO - root - Categorical Columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[2025-08-07 23:02:47,001] - 52 - INFO - root - Std Scaling for Numerical features completed
+[2025-08-07 23:02:47,001] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
+[2025-08-07 23:02:47,001] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
+[2025-08-07 23:02:47,017] - 96 - INFO - root - Saved Preprocessing Object
+[2025-08-07 23:02:47,017] - 35 - INFO - root - Split train and test input data
+[2025-08-07 23:04:43,480] - 28 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 23:04:43,483] - 31 - INFO - root - Read the dataset as dataframe
+[2025-08-07 23:04:43,483] - 37 - INFO - root - Train Test Split initiated
+[2025-08-07 23:04:43,494] - 44 - INFO - root - Data Ingestion is completed
+[2025-08-07 23:04:43,541] - 71 - INFO - root - Reading of Train and Test Data is completed
+[2025-08-07 23:04:43,541] - 72 - INFO - root - obtaining preprocessing object
+[2025-08-07 23:04:43,541] - 49 - INFO - root - Numerical Columns: ['reading score', 'writing score']
+[2025-08-07 23:04:43,541] - 50 - INFO - root - Categorical Columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[2025-08-07 23:04:43,541] - 52 - INFO - root - Std Scaling for Numerical features completed
+[2025-08-07 23:04:43,541] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
+[2025-08-07 23:04:43,541] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
+[2025-08-07 23:04:43,565] - 96 - INFO - root - Saved Preprocessing Object
+[2025-08-07 23:04:43,572] - 35 - INFO - root - Split train and test input data
+[2025-08-07 23:06:06,731] - 28 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 23:06:06,735] - 31 - INFO - root - Read the dataset as dataframe
+[2025-08-07 23:06:06,738] - 37 - INFO - root - Train Test Split initiated
+[2025-08-07 23:06:06,740] - 44 - INFO - root - Data Ingestion is completed
+[2025-08-07 23:06:06,792] - 71 - INFO - root - Reading of Train and Test Data is completed
+[2025-08-07 23:06:06,792] - 72 - INFO - root - obtaining preprocessing object
+[2025-08-07 23:06:06,792] - 49 - INFO - root - Numerical Columns: ['reading score', 'writing score']
+[2025-08-07 23:06:06,792] - 50 - INFO - root - Categorical Columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[2025-08-07 23:06:06,792] - 52 - INFO - root - Std Scaling for Numerical features completed
+[2025-08-07 23:06:06,792] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
+[2025-08-07 23:06:06,792] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
+[2025-08-07 23:06:06,819] - 96 - INFO - root - Saved Preprocessing Object
+[2025-08-07 23:06:06,819] - 35 - INFO - root - Split train and test input data
+[2025-08-07 23:13:53,068] - 28 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 23:13:53,068] - 31 - INFO - root - Read the dataset as dataframe
+[2025-08-07 23:13:53,084] - 37 - INFO - root - Train Test Split initiated
+[2025-08-07 23:13:53,090] - 44 - INFO - root - Data Ingestion is completed
+[2025-08-07 23:13:53,156] - 71 - INFO - root - Reading of Train and Test Data is completed
+[2025-08-07 23:13:53,156] - 72 - INFO - root - obtaining preprocessing object
+[2025-08-07 23:13:53,156] - 49 - INFO - root - Numerical Columns: ['reading score', 'writing score']
+[2025-08-07 23:13:53,156] - 50 - INFO - root - Categorical Columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[2025-08-07 23:13:53,156] - 52 - INFO - root - Std Scaling for Numerical features completed
+[2025-08-07 23:13:53,158] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
+[2025-08-07 23:13:53,158] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
+[2025-08-07 23:13:53,180] - 96 - INFO - root - Saved Preprocessing Object
+[2025-08-07 23:13:53,196] - 35 - INFO - root - Split train and test input data
+[2025-08-07 23:14:55,311] - 28 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 23:14:55,319] - 31 - INFO - root - Read the dataset as dataframe
+[2025-08-07 23:14:55,328] - 37 - INFO - root - Train Test Split initiated
+[2025-08-07 23:14:55,338] - 44 - INFO - root - Data Ingestion is completed
+[2025-08-07 23:14:55,394] - 71 - INFO - root - Reading of Train and Test Data is completed
+[2025-08-07 23:14:55,394] - 72 - INFO - root - obtaining preprocessing object
+[2025-08-07 23:14:55,394] - 49 - INFO - root - Numerical Columns: ['reading score', 'writing score']
+[2025-08-07 23:14:55,394] - 50 - INFO - root - Categorical Columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[2025-08-07 23:14:55,394] - 52 - INFO - root - Std Scaling for Numerical features completed
+[2025-08-07 23:14:55,394] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
+[2025-08-07 23:14:55,402] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
+[2025-08-07 23:14:55,441] - 96 - INFO - root - Saved Preprocessing Object
+[2025-08-07 23:14:55,450] - 35 - INFO - root - Split train and test input data
+[2025-08-07 23:15:11,135] - 66 - INFO - root - Best Model found
+[2025-08-07 23:16:17,656] - 28 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 23:16:17,659] - 31 - INFO - root - Read the dataset as dataframe
+[2025-08-07 23:16:17,677] - 37 - INFO - root - Train Test Split initiated
+[2025-08-07 23:16:17,686] - 44 - INFO - root - Data Ingestion is completed
+[2025-08-07 23:16:17,781] - 71 - INFO - root - Reading of Train and Test Data is completed
+[2025-08-07 23:16:17,781] - 72 - INFO - root - obtaining preprocessing object
+[2025-08-07 23:16:17,781] - 49 - INFO - root - Numerical Columns: ['reading score', 'writing score']
+[2025-08-07 23:16:17,781] - 50 - INFO - root - Categorical Columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[2025-08-07 23:16:17,781] - 52 - INFO - root - Std Scaling for Numerical features completed
+[2025-08-07 23:16:17,781] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
+[2025-08-07 23:16:17,785] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
+[2025-08-07 23:16:17,813] - 96 - INFO - root - Saved Preprocessing Object
+[2025-08-07 23:16:17,831] - 35 - INFO - root - Split train and test input data
+[2025-08-07 23:16:35,150] - 66 - INFO - root - Best Model found
