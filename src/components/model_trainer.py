@@ -2,8 +2,8 @@ import os
 import sys
 from dataclasses import dataclass
 from catboost import CatBoostRegressor
-#from src.components.data_ingestion import DataIngestionConfig, DataIngestion
-#from src.components.data_transformation import DataTransformationConfig, DataTransformation
+#from src.components.data_ingestion import DataIngestionConfig, DataIngestion # may cause loop
+#from src.components.data_transformation import DataTransformationConfig, DataTransformation  may cause loop
 from src.exception import CustomException
 from src.logger import logging
 from src.utils import save_object, evaluate_model
