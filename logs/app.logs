@@ -97,3 +97,26 @@ ZeroDivisionError: division by zero
 [2025-08-07 17:35:44,858] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
 [2025-08-07 17:35:44,858] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
 [2025-08-07 17:35:44,882] - 95 - INFO - root - Saved Preprocessing Object
+[2025-08-07 17:38:29,599] - 28 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 17:38:29,604] - 31 - INFO - root - Read the dataset as dataframe
+[2025-08-07 17:38:29,607] - 37 - INFO - root - Train Test Split initiated
+[2025-08-07 17:38:29,612] - 44 - INFO - root - Data Ingestion is completed
+[2025-08-07 17:38:29,641] - 71 - INFO - root - Reading of Train and Test Data is completed
+[2025-08-07 17:38:29,641] - 72 - INFO - root - obtaining preprocessing object
+[2025-08-07 17:38:29,641] - 49 - INFO - root - Numerical Columns: ['reading score', 'writing score']
+[2025-08-07 17:38:29,641] - 50 - INFO - root - Categorical Columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[2025-08-07 17:38:29,641] - 52 - INFO - root - Std Scaling for Numerical features completed
+[2025-08-07 17:38:29,641] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
+[2025-08-07 17:38:29,643] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
+[2025-08-07 17:38:45,896] - 28 - INFO - root - Entered the data ingestion method or component
+[2025-08-07 17:38:45,896] - 31 - INFO - root - Read the dataset as dataframe
+[2025-08-07 17:38:45,912] - 37 - INFO - root - Train Test Split initiated
+[2025-08-07 17:38:45,912] - 44 - INFO - root - Data Ingestion is completed
+[2025-08-07 17:38:45,948] - 71 - INFO - root - Reading of Train and Test Data is completed
+[2025-08-07 17:38:45,948] - 72 - INFO - root - obtaining preprocessing object
+[2025-08-07 17:38:45,948] - 49 - INFO - root - Numerical Columns: ['reading score', 'writing score']
+[2025-08-07 17:38:45,948] - 50 - INFO - root - Categorical Columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[2025-08-07 17:38:45,948] - 52 - INFO - root - Std Scaling for Numerical features completed
+[2025-08-07 17:38:45,948] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
+[2025-08-07 17:38:45,948] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
+[2025-08-07 17:38:45,960] - 95 - INFO - root - Saved Preprocessing Object

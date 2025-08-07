@@ -42,7 +42,7 @@ class DataTransformation:
                 steps=[
                     ("imputer",SimpleImputer(strategy="most_frequent")),
                     ("one_hot_encoder",OneHotEncoder()) ,
-                    ('scaler',StandardScaler(with_mean=False)) 
+                    ('scaler',StandardScaler(with_mean=False))  
                 ]
             )
             
@@ -89,6 +89,7 @@ class DataTransformation:
             input_feature_train_arr = preprocessor_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr = preprocessor_obj.transform(input_feature_test_df)
 
+            # column-wise concatenation i.e combining the transformed features with the target column(s) to create a final array.
             train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
             test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
             
