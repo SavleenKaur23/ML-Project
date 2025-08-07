@@ -7,6 +7,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 from dataclasses import dataclass
+from src.components.data_transformation import DataTransformation, DataTransformationConfig
+
 
 @dataclass  # decorator; defines class variables directly, and it auto-generates the __init__ and other methods for us
 class DataIngestionConfig:  # any i/p required, we'll give through DataIngestionConfig
@@ -32,7 +34,7 @@ class DataIngestion:
             
             df.to_csv(self.ingestion_config.raw_data_path,index=False,header=True)  #raw data path
             
-            logging.info("Train Test Split initiated")
+            logging.info("Train Test Split initiated")  #can be written in utils.py as its a common functionality and called here
             train_set, test_set = train_test_split(df, test_size=0.2, random_state=42) 
             
             train_set.to_csv(self.ingestion_config.train_data_path,index=False,header=True)  # train data path
@@ -51,9 +53,12 @@ class DataIngestion:
 
 if __name__ == "__main__":
     obj = DataIngestion()  # create an instance obj of the DataIngestion class.
-    obj.initiate_data_ingestion() # call the method initiate_data_ingestion() on that instance, which triggers the data ingestion process
-
-            # pip install psycopg2-binary sqlalchemy
+    train_data, test_data = obj.initiate_data_ingestion() # call the method initiate_data_ingestion() on that instance, which triggers the data ingestion process
+    
+    data_transformation=DataTransformation()
+    data_transformation.initiate_data_transformation(train_data,test_data)   
+    
+             # pip install psycopg2-binary sqlalchemy
 
             # from sqlalchemy import create_engine
 
