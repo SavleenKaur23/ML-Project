@@ -8,3 +8,4 @@ sqlalchemy
 catboost
 xgboost
 dill
+pickle

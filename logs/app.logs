@@ -266,3 +266,17 @@ ZeroDivisionError: division by zero
 [2025-08-08 08:04:21,717] - 96 - INFO - root - Saved Preprocessing Object
 [2025-08-08 08:04:21,720] - 35 - INFO - root - Split train and test input data
 [2025-08-08 08:04:33,933] - 106 - INFO - root - Best Model found
+[2025-08-08 08:51:50,933] - 28 - INFO - root - Entered the data ingestion method or component
+[2025-08-08 08:51:50,937] - 31 - INFO - root - Read the dataset as dataframe
+[2025-08-08 08:51:50,944] - 37 - INFO - root - Train Test Split initiated
+[2025-08-08 08:51:50,950] - 44 - INFO - root - Data Ingestion is completed
+[2025-08-08 08:51:51,004] - 71 - INFO - root - Reading of Train and Test Data is completed
+[2025-08-08 08:51:51,004] - 72 - INFO - root - obtaining preprocessing object
+[2025-08-08 08:51:51,004] - 49 - INFO - root - Numerical Columns: ['reading_score', 'writing_score']
+[2025-08-08 08:51:51,004] - 50 - INFO - root - Categorical Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-08-08 08:51:51,004] - 52 - INFO - root - Std Scaling for Numerical features completed
+[2025-08-08 08:51:51,004] - 53 - INFO - root - Encoding and Std Scaling for Categorical features completed
+[2025-08-08 08:51:51,017] - 87 - INFO - root - Applying preprocessing object on training dataframe and test dataframe
+[2025-08-08 08:51:51,038] - 96 - INFO - root - Saved Preprocessing Object
+[2025-08-08 08:51:51,049] - 35 - INFO - root - Split train and test input data
+[2025-08-08 08:52:08,040] - 106 - INFO - root - Best Model found

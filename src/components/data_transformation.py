@@ -28,8 +28,8 @@ class DataTransformation:
         Function for handling Data Transformation
         '''
         try:
-            numerical_features = ["reading score", "writing score"]
-            categorical_features = ["gender", "race/ethnicity", "parental level of education", "lunch", "test preparation course"]
+            numerical_features = ["reading_score", "writing_score"]
+            categorical_features = ["gender", "race_ethnicity", "parental_level_of_education", "lunch", "test_preparation_course"]
 
             numerical_pipeline = Pipeline(
                 steps=[
@@ -75,8 +75,8 @@ class DataTransformation:
             # preprocessing object needs to be converted to pickle file
             # we have the path above DataTransformationConfig as preprocessor_obj_file_path
 
-            target_column = 'math score'
-            numerical_features = ['reading score', 'writing score',]
+            target_column = 'math_score'
+            numerical_features = ['reading_score', 'writing_score',]
 
             input_feature_train_df=train_df.drop(columns=[target_column],axis=1)
             target_feature_train_df=train_df[target_column]
