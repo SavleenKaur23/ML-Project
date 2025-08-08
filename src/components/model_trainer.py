@@ -49,9 +49,49 @@ class ModelTrainer:
                 "CatBoostRegressor": CatBoostRegressor(verbose=False),
                 "KNeighborsRegressor": KNeighborsRegressor()
             }
-        
+            
+            # Dictionary of model-specific hyperparameters
+            model_params = {
+                "Random Forest": {
+                    "n_estimators": [50,100],
+                    "max_depth": [5,7,10],
+                    "random_state": [42]
+                },
+                "DecisionTreeRegressor": {
+                    "max_depth": [5,7],
+                    "random_state": [42]
+                },
+                "AdaBoostRegressor": {
+                    "n_estimators": [50,100],
+                    "learning_rate": [0.1],
+                    "random_state": [42]
+                },
+                "XGBRegressor": {
+                    "n_estimators": [50,100],
+                    "learning_rate": [0.1],
+                    "max_depth": [5,7],
+                    "random_state": [42]
+                },
+                "GradientBoostingRegressor": {
+                    "n_estimators": [50,70,100],
+                    "learning_rate": [0.1],
+                    "max_depth": [5,7],
+                    "random_state": [42]
+                },
+                "LinearRegression": {},  # No hyperparams for basic LinearRegression
+                "CatBoostRegressor": {
+                    "iterations": [100],
+                    "learning_rate": [0.1],
+                    "depth": [5],
+                    "random_state": [42]
+                },
+                "KNeighborsRegressor": {
+                    "n_neighbors": [5]
+                }
+            }
+
             model_report:dict=evaluate_model(X_train=X_train, y_train=y_train,X_test=X_test, y_test=y_test,
-                                          models = models)        
+                                          models = models, model_params=model_params)        
 
             # To get the best model score
             best_model_score = max(sorted(model_report.values()))   
