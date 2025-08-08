@@ -28,6 +28,7 @@ class DataTransformation:
         Function for handling Data Transformation
         '''
         try:
+            
             numerical_features = ["reading_score", "writing_score"]
             categorical_features = ["gender", "race_ethnicity", "parental_level_of_education", "lunch", "test_preparation_course"]
 
@@ -41,7 +42,7 @@ class DataTransformation:
             categorical_pipeline = Pipeline(
                 steps=[
                     ("imputer",SimpleImputer(strategy="most_frequent")),
-                    ("one_hot_encoder",OneHotEncoder()) ,
+                    ("one_hot_encoder",OneHotEncoder(handle_unknown='ignore')) ,
                     ('scaler',StandardScaler(with_mean=False))  
                 ]
             )
@@ -67,6 +68,9 @@ class DataTransformation:
         try:
             train_df = pd.read_csv(train_path)
             test_df = pd.read_csv(test_path)
+
+            train_df.replace({None: np.nan}, inplace=True)
+            test_df.replace({None: np.nan}, inplace=True)
 
             logging.info("Reading of Train and Test Data is completed")
             logging.info("obtaining preprocessing object")
