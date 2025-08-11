@@ -1,4 +1,4 @@
-# for Deployment keep either app.py or application.py (delete app.py) 
+# for Deployment keep either app.py or application.py (deleted app.py) 
 # else the pipeline in AWS will throw an error
 
 #created for deployment 
