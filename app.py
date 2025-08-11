@@ -1,3 +1,7 @@
+# for Deployment keep either app.py or application.py (delete app.py) 
+# else the pipeline in AWS will throw an error
+
+
 import pickle
 from flask import Flask, request, render_template
 
@@ -8,7 +12,7 @@ from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData,PredictPipeline
 
 
-application=Flask(__name__)
+application=Flask(__name__)  #python.config deployment will get this as the entry point 
 
 app = application
 

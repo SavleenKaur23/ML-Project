@@ -1,3 +1,6 @@
+# for Deployment keep either app.py or application.py (delete app.py) 
+# else the pipeline in AWS will throw an error
+
 #created for deployment 
 import pickle
 from flask import Flask, request, render_template
