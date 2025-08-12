@@ -1,6 +1,6 @@
-FROM python:3.10-slim-buster  # BaseImage
-WORKDIR /app  # folder will get created in Docker
-COPY . /app  #copy the entire project in app folder
+FROM python:3.10-slim-buster  
+WORKDIR /app  
+COPY . /app  
 
 RUN apt update -y && apt install awscli - y
 
